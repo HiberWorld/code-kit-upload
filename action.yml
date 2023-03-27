@@ -1,5 +1,8 @@
 name: "Code-Kit Upload"
 description: "Uploads Code-Kit worlds "
+branding:
+  icon: "code"
+  color: "red"
 
 inputs:
   world:
