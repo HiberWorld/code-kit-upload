@@ -1,4 +1,3 @@
-## Caveats
+## Code-Kit Upload
 
-Github Actions needs to be atomic, ie either have node_modules checked in, or code packaged
-https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action#commit-tag-and-push-your-action-to-github
+This action builds a Code-Kit world and publishes it to hiberworld.com

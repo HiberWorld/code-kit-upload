@@ -1,5 +1,5 @@
-name: "Restore cache"
-description: "Install and cache node_modules"
+name: "Code-Kit Upload"
+description: "Uploads Code-Kit worlds "
 
 inputs:
   world:
