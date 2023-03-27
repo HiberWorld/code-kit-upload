@@ -22,10 +22,10 @@ runs:
         yarn
         yarn dev &
 
-    - name: "Generate scene.json"
+    - name: "Generating world"
       shell: bash
       run: |
-        node ./.github/actions/upload/dist/index.js
+        node ${{ github.action_path }}/dist/index.js
 
     - name: Publishing ${{ inputs.world }}
       shell: bash
